@@ -3,7 +3,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 import time
 
 hostName = "localhost"
-serverPort = 80
+serverPort = 81
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
